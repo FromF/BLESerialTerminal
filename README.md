@@ -1,0 +1,2 @@
+# BLESerialTerminal
+ESP32などのBLE Serial通信をモニターできるアプリ
