@@ -10,7 +10,7 @@
 		9D4DC88926A29DBD005C31FE /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DC88826A29DBD005C31FE /* TextView.swift */; };
 		9D4DC88B26A29EA5005C31FE /* BleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DC88A26A29EA5005C31FE /* BleViewModel.swift */; };
 		9D4DC88D26A2A842005C31FE /* Peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DC88C26A2A842005C31FE /* Peripheral.swift */; };
-		9D4DC88F26A2A876005C31FE /* BLESerivice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DC88E26A2A876005C31FE /* BLESerivice.swift */; };
+		9D4DC88F26A2A876005C31FE /* BLEService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DC88E26A2A876005C31FE /* BLEService.swift */; };
 		9D4DC89126A2A92A005C31FE /* debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DC89026A2A92A005C31FE /* debug.swift */; };
 		9D4DC89326A2B53C005C31FE /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DC89226A2B53C005C31FE /* StartViewModel.swift */; };
 		9D4DC89526A2C466005C31FE /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DC89426A2C466005C31FE /* SettingView.swift */; };
@@ -45,7 +45,7 @@
 		9D4DC88826A29DBD005C31FE /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		9D4DC88A26A29EA5005C31FE /* BleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleViewModel.swift; sourceTree = "<group>"; };
 		9D4DC88C26A2A842005C31FE /* Peripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peripheral.swift; sourceTree = "<group>"; };
-		9D4DC88E26A2A876005C31FE /* BLESerivice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLESerivice.swift; sourceTree = "<group>"; };
+		9D4DC88E26A2A876005C31FE /* BLEService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEService.swift; sourceTree = "<group>"; };
 		9D4DC89026A2A92A005C31FE /* debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = debug.swift; sourceTree = "<group>"; };
 		9D4DC89226A2B53C005C31FE /* StartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
 		9D4DC89426A2C466005C31FE /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 		9D7F3229268C7A8100E7ABEA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				9D4DC88E26A2A876005C31FE /* BLESerivice.swift */,
+				9D4DC88E26A2A876005C31FE /* BLEService.swift */,
 				9D4DC88C26A2A842005C31FE /* Peripheral.swift */,
 			);
 			path = Model;
@@ -312,7 +312,7 @@
 			files = (
 				9D8FDA0E2699726D00F7C644 /* TerminalView.swift in Sources */,
 				9D4DC89526A2C466005C31FE /* SettingView.swift in Sources */,
-				9D4DC88F26A2A876005C31FE /* BLESerivice.swift in Sources */,
+				9D4DC88F26A2A876005C31FE /* BLEService.swift in Sources */,
 				9D4DC88D26A2A842005C31FE /* Peripheral.swift in Sources */,
 				9D8FDA0C2699726200F7C644 /* StartView.swift in Sources */,
 				9D4DC89126A2A92A005C31FE /* debug.swift in Sources */,

@@ -10,7 +10,7 @@ import Foundation
 class StartViewModel: ObservableObject {
     @Published var peripherals: [PeripheralItem] = []
     
-    private let bleSerivce = BLESerivice.shared
+    private let bleSerivce = BLEService.shared
     private var scanTimerHandler : Timer?
     private let scanTimerTimeOut = 2.0
 

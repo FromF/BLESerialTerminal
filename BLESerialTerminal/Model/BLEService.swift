@@ -1,5 +1,5 @@
 //
-//  BLESerivice.swift
+//  BLEService.swift
 //  BLESerialTerminal
 //
 //  Created by 藤治仁 on 2021/07/17.
@@ -8,8 +8,8 @@
 import UIKit
 import CoreBluetooth
 
-class BLESerivice: NSObject {
-    static let shared = BLESerivice()
+class BLEService: NSObject {
+    static let shared = BLEService()
     
     /// デバイス状態
     var state: CBManagerState {
@@ -135,7 +135,7 @@ class BLESerivice: NSObject {
     }
 }
 
-extension BLESerivice: CBCentralManagerDelegate {
+extension BLEService: CBCentralManagerDelegate {
     // MARK: - CBCentralManagerDelegate - デバイス起動時のdelegate
     func centralManagerDidUpdateState(_ central: CBCentralManager) {
         DispatchQueue.main.async {
@@ -178,7 +178,7 @@ extension BLESerivice: CBCentralManagerDelegate {
 
 }
 
-extension BLESerivice: CBPeripheralDelegate {
+extension BLEService: CBPeripheralDelegate {
     // MARK: - CBCentralManagerDelegate - ペリフェラル接続/切断時のdelegate
     // Peripheralに接続
     func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {

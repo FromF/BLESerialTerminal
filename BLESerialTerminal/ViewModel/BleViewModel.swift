@@ -11,7 +11,7 @@ import CoreBluetooth
 class BleViewModel: ObservableObject {
     @Published var recivedText: String = ""
     
-    private let bleSerivce = BLESerivice.shared
+    private let bleSerivce = BLEService.shared
     private var writeServiceUUID: String {
         get {
             let defaults = UserDefaults.standard
