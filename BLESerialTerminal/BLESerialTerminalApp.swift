@@ -12,6 +12,7 @@ struct BLESerialTerminalApp: App {
     init() {
         let defaults = UserDefaults.standard
         defaults.register(defaults: [
+            UserDefaultsKeyServiceUUID: DefaultServiceUUID,
             UserDefaultsKeyWriteServiceUUID : DefaultWriteServiceUUID,
             UserDefaultsKeyNotifyServiceUUID : DefaultNotifyServiceUUID,
         ])
